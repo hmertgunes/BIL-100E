@@ -60,15 +60,3 @@ xkonumlar, ykonumlar = egik_atis(vt, 5, pi/4)
 
 plt.plot(vt, ykonumlar)
 
-
-
-
-
-
-
-
-
-
-
-
-
