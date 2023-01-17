@@ -1,0 +1,57 @@
+Tuesday 8 November midterm I
+IT will be assumed that the first two lines of your code are:
+import numpy as np
+import matplotlib.pyplot as plt
+Do not rewrite thse commands and you will not have to memorise these commands
+
+
+Recuremce relations
+factorial
+a_n=f(a_{n-1},a_{n-1}) term n of the sequence is given as function of two previous terms. Compute the sequence.
+Compute the series of exp ,cos ,sin (the mathematical formula will be given)
+
+Writing reading from a file and converts the strings read from  the file into desired form (float ,integer extra)
+
+numpy array manipulations 
+extracting a subararay starting from istart to istop (without including istop) with stride nstride
+linspace ,arange what is the meaning of linspace(a,b,n ,False)?
+extract a subarray meeting a particular condition (Example:from an 
+array of integers extract na array of even integers without using for loop)
+Note 11%2 is 1(remainder in the division
+What are the signs =  and ==? 
+Function plotting
+
+Functions:
+The scope of a variable (local and global variables)
+study week7.py carefully
+optional variables:
+	def fsum(x,y=0)#default value of y is 0
+		return x+y
+	print(fum(2))#displays  2 because the optional argument y is not provided.
+	#y takes then the default value 0
+	print(fum(2,1))#displays  3 because the optional argument y is now 1.
+	
+
+ How to pass a function as argument  to an other  function (week7.py line 65
+ where function fcircle has been passed to integrate as first argument)
+ 
+ the meaning of f(*l)
+ example:
+	def fsum(x,y):
+		return x+y
+	print(fsum(1,2))# will display 3
+	#or
+	l=[1,2]
+	print(fsum(*l))# will display 3
+	#or
+	l=[2]
+	print(fsum(1,*l))# will display 3
+	This latter use fsum(x,*l) will be usful in integrating function of several variables 
+with respect to its first variable using def integration2(f,a,b,N,arg=[]). See  line74 of week7.py where 
+function latitude_surface_area has been integrated with respect to tis first variable and the second
+argument is set to R/2.
+ 
+	
+
+
+
